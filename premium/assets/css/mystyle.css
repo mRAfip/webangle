@@ -1,0 +1,1022 @@
+
+
+:root {
+	--primary-color: #5F259F; /* Define a root variable for primary color */
+	--secondory-color : #fff; /* Define a root variable for sec color */
+	--orenge-color : #FFC425; /* Define a root variable for sec color */
+	--dark-color :#0D1033; /* Define a root variable for sec color */
+	--black-color :#000; /* Define a root variable for sec color */
+
+	--non-active: #FBF6FF;
+
+	
+  
+  }
+
+body{
+
+	background-color: #fff !important;
+	color: #000 !important;
+}
+
+.bg-dark{
+
+	background-color: var(--primary-color);
+}
+
+.title-contact-home-color{
+
+	color: #fff !important;
+}
+
+
+.marque_text_top{
+
+    background-color: var(--primary-color);
+	margin-bottom: 20px;
+}
+
+.tt-scrolling-text-top {
+	display: flex;
+	position: relative;
+	pointer-events: none;
+}
+.tt-scrolling-text-inner-top {
+    padding-top:1vw;
+    padding-bottom:1vw;
+	font-size: calc(1.75px + 1vw);
+	line-height: 1;
+	font-weight: bold;
+	font-weight: 600;
+	color: #fff;
+	white-space: nowrap;
+	animation-name: tt_scrolling_text; 
+	animation-timing-function: linear; 
+	animation-iteration-count: infinite; 
+	animation-play-state: running;
+	/* animation-duration is handled by js. */
+}
+.tt-scrolling-text-inner-top:after {
+	content: attr(data-text);
+}
+
+
+.tt-header-inner-landing {
+	width: 100%;
+	display: flex;
+	padding-top: 50px;
+	align-items: center;
+}
+
+
+.tt-m-menu-text-menu {
+
+
+	color: var(--black-color) !important;
+
+}
+
+
+
+.tt-m-menu-toggle-btn span::before,
+.tt-m-menu-toggle-btn span::after{
+	
+	background-color: var(--black-color) !important;
+
+
+}
+
+.top_banner_offer{
+
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+	padding-top: 3%;
+	
+
+
+	
+}
+
+.div-left{
+
+	width: 40%;
+	padding-bottom: 6%;
+	
+
+	
+}
+.div-right{
+
+	width: 60%;
+	padding-bottom: 6%;
+	
+
+}
+
+
+.offer-head-div{
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.banner-head-1{
+	
+	font-family: 'SF Pro Display', sans-serif !important;
+	font-size: calc(2px + 1.25vw);
+
+	padding: 1px !important;
+	margin: 1px !important;
+	
+
+	
+
+}
+
+.banner-head-main{
+
+
+	padding: 1px !important;
+	margin: 1px !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+	font-weight: 900 !important;
+
+
+
+	
+
+}
+
+.banner-price{
+
+
+	padding: 1px !important;
+	margin: 1px !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+	font-weight: 700 !important;
+	color: var(--primary-color);
+}
+
+.offer-spec-div{
+
+	display: flex !important;
+	flex-direction: column;
+}
+
+.banner-offer-spec{
+
+	width: 100%;
+	font-family: 'SF Pro Display', sans-serif !important;
+	
+	
+}
+
+.check{
+
+	margin-right: 4%;
+}
+
+.banner-desc{
+	font-family: 'SF Pro Display', sans-serif !important;
+	
+	font-weight: 200 !important;
+	padding: 1px !important;
+	margin: 1px !important;
+
+	
+
+
+}
+
+
+#counter {
+	font-size: 3.8em;
+	font-weight: 600 !important;
+	margin-top: -10px;
+
+}
+
+
+
+
+.button-banner{
+
+
+	background-color: var(--primary-color);
+	color: #fff;
+	padding: 3% 15%;
+	margin-top: 1%;
+
+	font-weight: 600;
+	font-family: 'SF Pro Display', sans-serif !important;
+
+
+
+	
+}
+
+.pgi-image-wrap {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	z-index: 1;
+	line-height: 1;
+	margin-top: -20%;
+}
+
+.pgi-image-banner {
+	position: relative;
+}
+.pgi-image-banner img {
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+
+
+/* company rating */
+
+.bg-white{
+
+	background-color: #fff;
+}
+
+.pricing-main-div{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+.product-category-main-head{
+
+	text-align: center;
+	font-size: calc(4px + 4vw);
+	margin-top: 2%;
+}
+
+.product-category-para{
+
+	text-align: center;
+	width: 60%;
+	align-self: center;
+}
+
+.company-rating-main-div{
+
+	width: 100%;
+	display: flex;
+	padding: 3% 10%;
+	gap: 1%;
+
+
+	
+
+}
+
+
+
+
+.card{
+
+	border: solid 1px var(--black-color);
+	width: 100%;
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	padding-top: 1.5%;
+	
+	
+}
+
+.card:hover{
+
+	background-color: var(--black-color);
+	color: var(--secondory-color);
+
+}
+
+.card:hover .line-white{
+
+	background-color: var(--secondory-color);
+	
+}
+
+
+.card:hover .service-card-button{
+
+	border: solid 1px var(--secondory-color);
+	color: var(--secondory-color);
+	
+}
+
+.card:hover .service-card-button:hover {
+
+	border: solid 1px var(--secondory-color);
+	color: var(--black-color);
+	background-color: var(--secondory-color);
+	
+}
+
+
+.card-most-popular{
+
+	
+	width: 100%;
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+	background-color: var(--primary-color);
+	color: #fff;
+	
+}
+
+
+
+
+
+.card-inner-top{
+
+	display: flex;
+	flex-direction: column;
+	padding: 5% 6%;
+}
+
+.card-inner-bottom{
+
+	padding: 5% 6%;
+	display: flex;
+	flex-direction: column;
+}
+
+.card-top-popular{
+
+	background-color: var(--orenge-color);
+	width: fit-content;
+	padding: 2% 10%;
+	align-self: center;
+	border-radius: 50px;
+	margin-top: -6%;
+	color: var(--black-color);
+}
+
+.service-card-head{
+
+	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
+  background-clip: text;
+  -webkit-background-clip: text; /* For older versions of Chrome and Safari */
+
+  display: inline-block;
+  padding: 1.5px !important;
+  margin: 1.5px !important;
+  font-weight: 600;
+  font-family: 'SF Pro Display', sans-serif !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: calc(2px + 1vw);
+
+}
+
+
+
+.service-card-para{
+
+	text-align: center;
+}
+
+
+.price-cross-offer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+
+  .price-cross-offer__old-price {
+	font-size: 18px;
+	text-decoration: line-through;
+	color: #ccc;
+  }
+
+
+  .price-cross-offer__save {
+	font-size: 18px;
+	color: #FC5185;
+	background-color: #ffc8d8;
+	padding: 1% 6%;
+	border-radius: 50px;
+	margin-left: 2%;
+
+  }
+
+
+  .service-card-pricing{
+
+	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
+  background-clip: text;
+  -webkit-background-clip: text; /* For older versions of Chrome and Safari */
+  display: inline-block;
+  padding: 1.5px !important;
+  margin: 1.5px !important;
+  font-weight: 600;
+  font-family: 'SF Pro Display', sans-serif !important;
+  text-align: center;
+
+}
+
+.service-card-pricing-active{
+
+	/* background: linear-gradient(45deg, #ff00cc, #3333ff); */
+  background-clip: text;
+  -webkit-background-clip: text; /* For older versions of Chrome and Safari */
+  display: inline-block;
+  padding: 1.5px !important;
+  margin: 1.5px !important;
+  font-weight: 600;
+  font-family: 'SF Pro Display', sans-serif !important;
+  text-align: center;
+
+}
+
+
+.package-duration{
+
+	text-align: center;
+	
+}
+
+.package-duration-popular{
+
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+.offer-spec{
+
+	margin-right: 20%;
+	font-family: 'SF Pro Display', sans-serif !important;
+	margin-top: 3%;
+
+	
+}
+
+
+.offer-spec-tick{
+
+	color: #0abf53;
+	
+}
+
+.offer-spec-tick-yellow{
+
+	color: #FFB800;
+	
+}
+
+.offer-spec-tick-red{
+
+	color: red;
+	
+}
+
+.category-differ{
+
+	margin-top: 8%;
+	margin-bottom: 8%;
+	text-transform: uppercase;
+	opacity: 0.5;
+	font-weight: 600;
+}
+
+.service-card-button{
+
+	width: 100%;
+	text-align: center;
+	height: fit-content;
+	padding: 5% 0;
+	
+	margin-top: 10%;
+	color: #000;
+	font-family: 'SF Pro Display', sans-serif !important;
+	border: solid 1px #000;
+	border-radius: 10px;
+
+}
+
+.service-card-button-active{
+
+	width: 100%;
+	text-align: center;
+	height: fit-content;
+	padding: 5% 0;
+	
+	margin-top: 10%;
+	color: #000;
+	font-family: 'SF Pro Display', sans-serif !important;
+
+	border-radius: 10px;
+	background-color: #FFC425;
+
+}
+
+.service-card-button:hover{
+
+
+	background-color: #000;
+	color: #fff;
+
+}
+
+.service-card-button-active:hover{
+
+
+	background-color: #fff;
+	color: #000;
+
+}
+
+.line-white{
+
+	background-color: var(--black-color);
+	width: 100%;
+	height: 2px;
+	margin-top: 10%;
+}
+
+.line-white-active{
+
+	background-color: var(--secondory-color);
+	width: 100%;
+	height: 2px;
+	margin-top: 10%;
+}
+
+
+
+.web-template-section{
+
+
+	padding: 5% 10%;
+}
+
+.template-head{
+
+	color: #000 !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+
+	font-size: calc(6px + 3vw);
+	font-weight: 600;
+	padding: 1px !important;
+ 	 margin: 1px !important;
+
+}
+
+.template-para{
+	padding: 1.5px !important;
+	margin: 1.5px !important;
+
+
+}
+
+.curosal{
+
+	margin-top: 25px;
+}
+
+
+.btn-template{
+
+	border-radius: 0 !important;
+	padding: 2% 10%;
+}
+
+
+/* end template section */
+
+
+
+/* domain section start */
+
+.domain-search-section{
+
+
+	padding: 15% 25%;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-direction: column;
+	background-color: #0D1033;
+}
+
+.domain-section-head{
+
+	color: #000 !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+
+	font-size: calc(6px + 3vw);
+	font-weight: 600;
+	padding: 1px !important;
+ 	 margin: 1px !important;
+	 text-align: center;
+
+}
+
+.domain-section-para{
+	padding: 1.5px !important;
+	margin: 1.5px !important;
+	text-align: center;
+	color: #000 !important;
+	
+
+}
+
+.form-domain{
+
+	margin-top: 3%;
+}
+
+
+
+
+.div-line{
+
+	height: 1px;
+	width: 100%;
+	background-color: #303030;
+	
+}
+
+
+.footer-top{
+
+	width: 100%;
+	display: flex;
+	gap: 1%;
+
+}
+
+.div-1{
+
+	display: flex;
+	flex-direction: column;
+	padding: 5% 4%;
+	width: 100%;
+}
+
+.footer-div-head{
+
+	color: #fff !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+	font-weight: 600 !important;
+}
+
+
+.footer-div-link{
+
+	color: #9c9c9c !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+	font-weight: 200 !important;
+	margin-bottom: 4%;
+}
+
+.footer-div-link:hover{
+
+	color: #fff !important;
+	text-decoration: underline !important;
+	
+}
+
+
+
+/* ===============================  tab view================================================== =========== */
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1366px) {
+	
+
+	.banner-head-main{
+
+
+		font-size: calc(5px + 3vw);
+		
+	
+	}
+
+	#counter {
+		font-size: 2.8em;
+		font-weight: 600 !important;
+		margin-top: -15px;
+	
+	}
+
+
+	
+
+
+}
+
+
+
+
+/* ===============================  mobile view================================================== =========== */
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+	.marque_text_top{
+
+		background-color: var(--primary-color);
+
+
+	}
+
+
+	.tt-scrolling-text-top {
+		display: flex;
+		position: relative;
+		pointer-events: none;
+	}
+	.tt-scrolling-text-inner-top {
+		padding-top:2.5vw;
+		padding-bottom:2.5vw;
+		font-size: calc(6px + 2.5vw);
+		line-height: 1;
+		font-weight: bold;
+		font-weight: 600;
+		color: #CCC;
+		white-space: nowrap;
+		animation-name: tt_scrolling_text; 
+		animation-timing-function: linear; 
+		animation-iteration-count: infinite; 
+		animation-play-state: running;
+		/* animation-duration is handled by js. */
+	}
+	.tt-scrolling-text-inner-top:after {
+		content: attr(data-text);
+	}
+
+
+
+	.top_banner_offer{
+
+		width: 100%;
+		padding: 10% 8%;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		padding-top: 8% !important;
+		
+		
+	
+		
+	}
+
+
+	.div-left{
+
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		
+	}
+	.div-right{
+	
+		width: 100%;
+
+	}
+
+	.offer-head-div{
+
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 30px;;
+	}
+	
+	
+	
+	
+	.banner-head-1{
+		font-family: 'SF Pro Display', sans-serif !important;
+		font-size: calc(3.5px + 3vw);
+		font-weight: 200 !important;
+		padding: 2px !important;
+		margin: 2px !important;
+		text-align: center !important;
+	
+		
+	
+	}
+	
+	.banner-head-main{
+		font-family: 'SF Pro Display', sans-serif !important;
+		padding: 2px !important;
+		margin: 2px !important;
+		text-align: center !important;
+		width: 100% !important;
+		font-weight: 900 !important;
+		font-size: calc(12px + 6vw) !important;
+		
+	
+	}
+
+	.banner-offer-spec{
+
+		text-align: center;
+		font-size: calc(2px + 3vw) !important;
+		
+	}
+
+	.banner-disc{
+		font-family: 'SF Pro Display', sans-serif !important;
+		font-size: calc(3.5px + 3vw);
+		font-weight: 200 !important;
+		padding: 2px !important;
+		margin: 2px !important;
+		text-align: center;
+	
+		
+	
+	}
+
+	.banner-price{
+
+		text-align: center;
+	}
+
+	#counter {
+		font-size: 3.5em;
+		
+		margin-top: -10px;
+		text-align: center;
+	
+	}
+
+	.button-banner{
+
+
+		background-color: var(--primary-color);
+		color: #fff;
+		padding: 4% 20%;
+		margin-top: 5%;
+		border-radius: 100px;
+		justify-content: center;
+		width: 100%;
+		font-weight: 600 !important;
+		
+		
+	}
+
+
+	.pgi-image-wrap {
+		
+		margin-top: -8%;
+	}
+
+
+
+
+	
+	.product-category-main-head{
+	
+		text-align: center;
+		font-size: calc(6px + 7vw);
+		margin-top: 2%;
+		width: 80%;
+		align-self: center;
+	}
+	
+	.product-category-para{
+	
+		text-align: center;
+		width: 100%;
+		align-self: center;
+	}
+
+
+	.card-top-popular{
+
+		
+		margin-top: -3%;
+		
+	}
+	
+
+	.company-rating-main-div{
+
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: 3% 5%;
+		gap: 20px;
+		
+	
+	}
+
+	
+	.card{
+
+		
+		padding: 10% 8% 8% 8%;
+	}
+
+	.service-card-head{
+
+		font-size: calc(8.5px + 7.5vw);
+		font-weight: 600 !important;
+		
+	}
+
+
+	.web-template-section{
+
+
+		padding: 5% 5%;
+	}
+
+	.template-head{
+
+		
+		font-size: calc(8px + 4.5vw);
+		font-weight: 600 !important;
+		
+	
+	}
+	
+	.template-para{
+		
+		
+	
+	}
+
+
+	.domain-search-section{
+
+
+		padding: 40% 5%;
+		display: flex;
+		justify-content: center;
+		align-self: center;
+		flex-direction: column;
+		background-color: #000 !important;
+	}
+	
+	.domain-section-head{
+	
+		color: #fff !important;
+		font-family: 'SF Pro Display', sans-serif !important;
+	
+		font-size: calc(9px + 5vw);
+		font-weight: 600;
+		padding: 1px !important;
+		  margin: 1px !important;
+		 text-align: center;
+	
+	}
+	
+	.domain-section-para{
+		padding: 1.5px !important;
+		margin: 1.5px !important;
+		text-align: center;
+		color: #fff !important;
+		
+	
+	}
+	
+	.form-domain{
+	
+		margin-top: 3%;
+	}
+
+
+	
+	.footer-top{
+
+		display: flex;
+		flex-direction: column;
+
+	
+	}
+
+
+	
+	
+}

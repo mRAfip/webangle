@@ -1,0 +1,121 @@
+:root {
+	--primary-color: #5F259F; /* Define a root variable for primary color */
+	--white-color : #fff; /* Define a root variable for sec color */
+	--orenge-color : #FC4F00; /* Define a root variable for sec color */
+	--dark-color :#0D1033; /* Define a root variable for sec color */
+	--black-color :#000; /* Define a root variable for sec color */
+
+	
+  
+}
+
+
+.main-service-section{
+
+    padding: 5% 2%;
+    background-color: #fff;
+    padding-bottom: 15% !important;
+}
+
+.main-title-ux{
+
+    font-family: 'SF Pro Display', sans-serif !important;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: calc(12px + 8vw);
+    color: var(--black-color);
+}
+
+.ux-main-para{
+
+    color: var(--black-color);
+    margin-top: -2%;
+}
+
+.ux-service-item-head{
+
+    color: var(--black-color);
+    text-align: left;
+   
+
+}
+
+.ux-service-list-main-div{
+
+    display: flex;
+    width: 100%;
+    padding-top: 8%;
+
+
+}
+
+.head-2{
+
+    margin-top: 10%;
+}
+
+.left-1{
+
+    flex: 1;
+    padding: 0% 10% 0% 0%;
+    
+}
+
+.div-right{
+    flex: 2;
+    background: url('../img/page-header/product/web-banner.jpg') no-repeat center/cover;
+   
+}
+
+.ux-service-btn{
+
+
+    padding: 3.5% 20%;
+    width: fit-content;
+    border: #000 solid 1px;
+    margin-top: 8%;
+
+}
+
+.main-title-ux-portfolio{
+
+    font-family: 'SF Pro Display', sans-serif !important;
+    text-transform: uppercase;
+
+    text-align: left;
+    font-size: calc(12px + 8vw);
+    color: var(--white-color);
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 6%;
+}
+
+.portolio-lit-ux{
+
+    margin-top: 2%;
+}
+
+.ux-main-para-portfolio{
+
+    color: var(--white-color);
+    margin-top: -2%;
+    text-align: center;
+}
+
+
+/* -------------------------------mobile view-------------------------------- */
+
+@media (max-width: 600px) {
+
+
+
+    .main-service-div-parent{
+
+
+        flex-direction: column;
+    
+    
+    }
+
+
+ }

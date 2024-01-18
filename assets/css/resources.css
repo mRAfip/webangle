@@ -1,0 +1,144 @@
+:root {
+	--primary-color: #5F259F; /* Define a root variable for primary color */
+	--secondory-color : #fff; /* Define a root variable for sec color */
+	--orenge-color : #FC4F00; /* Define a root variable for sec color */
+	--dark-color :#0D1033; /* Define a root variable for sec color */
+	--black-color :#000; /* Define a root variable for sec color */
+
+	
+}
+
+
+
+
+
+.main-header-reasources{
+
+    background-color: var(--black-color);
+    padding: 15% 0% 5% 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #fff;
+    
+   
+}
+
+
+.header-marketing-head{
+
+    color: var(--secondory-color);
+    font-size: calc(5px + 4.5vw);
+    
+
+   
+
+}
+
+.header-marketing-para{
+    color: var(--secondory-color);
+    font-size: calc(1px + 2vw);
+    width: 65%;
+
+}
+
+
+
+.call-back-section{
+
+    display: flex;
+    padding: 3% 15%;
+    justify-content: space-between;
+    border-top: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+    align-items: center;
+    
+  }
+
+
+  .callback-para{
+
+    font-size: calc(1px + 2vw);
+    text-align: left !important;
+  }
+
+
+  .child-right-callback{
+
+    width: 100%;
+   
+   
+  }
+
+
+  .callback-btn-marketing{
+
+    background-color: var(--secondory-color);
+    width: fit-content;
+    padding: 3% 15%;
+    text-transform: uppercase;
+    float: right;
+   
+  }
+
+
+  @media (max-width: 600px) {
+
+
+
+    .main-header-reasources{
+
+        background-color: var(--primary-color);
+        padding: 15% 0% 5% 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+       
+    }
+
+
+    .header-marketing-head{
+
+        color: var(--secondory-color);
+        font-size: calc(13px + 9vw);
+        margin-top: 15%;
+        
+    
+       
+    
+    }
+    
+    .header-marketing-para{
+        color: var(--secondory-color);
+        font-size: calc(2px + 4vw);
+        width: 100%;
+    
+    }
+
+    .callback-para{
+
+        font-size: calc(4px + 6vw);
+        text-align: left !important;
+      }
+
+    .call-back-section{
+
+
+        flex-direction: column;
+        padding: 3% 5%;
+     }
+
+
+     .callback-btn-marketing{
+
+        
+        float: left;
+        width: 100%;
+       
+      }
+
+
+  
+}

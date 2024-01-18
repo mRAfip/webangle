@@ -1,0 +1,323 @@
+
+
+:root {
+	--primary-color: #5F259F; /* Define a root variable for primary color */
+	--white-color : #fff; /* Define a root variable for sec color */
+	--orenge-color : #FC4F00; /* Define a root variable for sec color */
+	--dark-color :#0D1033; /* Define a root variable for sec color */
+	--black-color :#000; /* Define a root variable for sec color */
+
+	
+  
+  }
+
+
+a {
+
+    color: var(--white-color) !important;
+}
+
+.section-highlite{
+
+    background-color: #111111 !important;
+}
+
+
+/* start web-kit-detail-section */
+
+
+.web-kit-detail-section{
+
+    background-color: var(--white-color);
+    padding: 5% 5%;
+
+
+}
+
+
+
+.web-kit-detail-head{
+
+    font-family: 'SF Pro Display', sans-serif !important;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: calc(12px + 8vw);
+    color: var(--black-color);
+
+    
+}
+
+.web-kit-detail-para{
+
+    color: var(--black-color);
+    margin-top: -2%;
+}
+
+.main-feature-div{
+
+    display: flex;
+    width: 100%;
+   
+}
+.main-feature-child-div{
+
+    width: 100%;
+    border: 1px solid var(--black-color);
+    padding: 3% 2%;
+    display: flex;
+    flex-direction: column;
+    border-right: #000 solid 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-feature-list {
+
+    color: var(--black-color) !important;
+    text-align: center;
+    padding: 3.5% 0;
+}
+
+.feature-check{
+
+    margin-right: 8px;
+}
+
+.package-head{
+
+    color: var(--black-color) !important;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif !important;
+    padding-bottom: 0% !important;
+}
+
+.package-price-div{
+
+    display: flex;
+    justify-content: center;
+    font-family: 'SF Pro Display', sans-serif !important;
+    margin-top: -3%;
+    align-items: center;
+    width: 100%;
+}
+
+.original-price {
+    color: #888;
+    text-decoration: line-through;
+    font-family: 'SF Pro Display', sans-serif !important;
+    padding: 1% 1%;
+  }
+
+  .discounted-price {
+    color: var(--primary-color); /* Red color for the discounted price */
+    background-color: #60259f38;
+    padding: 1% 5%;
+    border-radius: 50px;
+    font-family: 'SF Pro Display', sans-serif !important;
+  }
+
+  .package-price{
+
+    color: var(--black-color) !important;
+    text-align: center;
+    font-family: 'SF Pro Display', sans-serif !important;
+    margin-top: -2%;
+    font-weight: 900;
+
+  }
+
+  .package-extraoff{
+
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: -5%;
+    text-align: center;
+  }
+
+  .package-btn{
+
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 4% 30%;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+
+
+/* end web-kit-detail-section */
+
+
+
+
+.support-team-marketing{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.image-container {
+    flex: 1 0 50%;
+    background-image: url('../img/page-header/product/web-banner.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+
+
+.support-team-marketing-content {
+    flex: 1 0 50%;
+    padding: 15%  5%;
+  
+    
+  }
+
+
+  .support-head{
+
+    font-size: calc(8px + 4vw);
+   
+  }
+
+  .support-para{
+
+    width: 70%;
+  }
+
+  .support-link {
+
+    text-decoration: underline;
+  }
+
+  .pad{
+
+    margin-left: 5%;
+  }
+
+
+
+
+.div-line{
+
+	height: 1px;
+	width: 100%;
+	background-color: #303030;
+	
+}
+
+
+.footer-top{
+
+	width: 100%;
+	display: flex;
+	gap: 1%;
+
+}
+
+.div-1{
+
+	display: flex;
+	flex-direction: column;
+	padding: 5% 4%;
+	width: 100%;
+}
+
+.footer-div-head{
+
+	color: #fff !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+	font-weight: 600 !important;
+}
+
+
+.footer-div-link{
+
+	color: #9c9c9c !important;
+	font-family: 'SF Pro Display', sans-serif !important;
+	font-weight: 200 !important;
+	margin-bottom: 4%;
+}
+
+.footer-div-link:hover{
+
+	color: #fff !important;
+	text-decoration: underline !important;
+	
+}
+
+.tt-heading-title{
+
+    color: var(--white-color) !important;
+}
+
+/* tt-image fixed height */
+@media (min-width: 1025px) {
+	.tt-image.tti-fixed-height img {
+		width: 100%;
+		height: 100vh;
+		object-fit: cover;
+		object-position: 50% 50%;
+	}
+}
+
+
+
+
+
+
+/* -------------------------------mobile view-------------------------------- */
+
+@media (max-width: 600px) {
+
+
+
+    .footer-top{
+
+		display: flex;
+		flex-direction: column;
+
+    }
+
+
+    .support-team-banner{
+
+        width: 100%;
+        background-color: #F6E9D9;
+    }
+
+
+    .main-head-support{
+
+   
+        margin: 0;
+        padding: 5% 0;
+        font-size: calc(8px + 5vw);
+       
+    
+    
+    }
+
+    .main-head-support{
+
+   
+        margin: 0;
+        padding: 0;
+        font-size: calc(10px + 8vw);
+        font-weight: 600;
+    
+    
+    }
+
+    .main-feature-div{
+
+      flex-direction: column;
+       
+    }
+    
+
+
+    
+    
+}

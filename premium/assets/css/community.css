@@ -1,0 +1,239 @@
+:root {
+	--primary-color: #5F259F; /* Define a root variable for primary color */
+	--white-color : #fff; /* Define a root variable for sec color */
+	--orenge-color : #FC4F00; /* Define a root variable for sec color */
+	--dark-color :#0D1033; /* Define a root variable for sec color */
+	--black-color :#000; /* Define a root variable for sec color */
+
+	
+  
+  }
+
+  a {
+
+    color: var(--white-color) !important;
+}
+
+
+
+
+.tt-scrolling-image {
+	display: flex;
+	position: relative;
+	pointer-events: none;
+}
+.tt-scrolling-image-inner {
+	padding-left: 2vw;
+
+	white-space: nowrap;
+	animation-name: tt_scrolling_image; 
+	animation-timing-function: linear; 
+	animation-iteration-count: infinite; 
+	animation-play-state: running;
+	/* animation-duration is handled by js. */
+}
+.tt-scrolling-image-inner:after {
+	content: attr(data-text);
+}
+
+@keyframes tt_scrolling_image {
+	0% { transform: translateX(0) }
+	100% { transform: translateX(-50%) }
+}
+
+/* Animation direction reverse. */
+.tt-scrolling-image.scr-text-reverse .tt-scrolling-image-inner {
+	animation-direction: reverse;
+}
+
+
+/* Scrolling text styles 
+========================= */
+/* Style stroke */
+.tt-scrolling-image.scr-text-stroke .tt-scrolling-image-inner {
+
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #CCC;
+	-webkit-text-fill-color: transparent;
+}
+
+.scroll-freelazer{
+
+	display: flex;
+}
+
+.frrelancer-img-div{
+  
+  width: 25rem;
+  height: 25rem;
+  margin-left: 0.5%;
+  border-radius: 20px;
+
+  
+}
+
+.freelancer-img{
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-body {
+	padding: 10px;
+	background-color: transparent;
+	color: white;
+  }
+
+
+  .join-now-div{
+
+	display: flex;
+	justify-content: center;
+	padding: 12% 15%;
+	flex-direction: column;
+  }
+
+  .join-now-title{
+
+	color: var(--white-color);
+	font-size: calc(5px + 4.5vw);
+	text-align: center;
+  }
+
+  .join-now-para{
+
+	color: #fff;
+	text-align: center;
+
+  }
+
+  .btn-div{
+
+	display: flex;
+	justify-content: center;
+	gap: 2%;
+
+  }
+
+  .hire-freelancer{
+
+	background-color: #fff;
+	border-radius: 50px;
+	color: #000;
+	width: fit-content;
+	padding: 2% 8%;
+	align-self: center;
+  }
+
+  .hire-freelancer:hover{
+
+background-color: transparent;
+	border-radius: 50px;
+	color: #fff;
+	width: fit-content;
+	padding: 2% 8%;
+	align-self: center;
+	border: 1px solid #fff;
+
+  }
+
+
+  .join-freelancer{
+
+	border: 1px solid #fff;
+	padding: 2% 8%;
+	width: fit-content;
+	border-radius: 50px;
+	align-self: center;
+	color: var(--white-color);
+
+  }
+
+  .join-freelancer:hover{
+
+
+	padding: 2% 8%;
+	width: fit-content;
+	border-radius: 50px;
+	align-self: center;
+	color: #FF9A02 !important;
+	border: 1px solid #FF9A02;
+	
+
+  }
+
+  .join-freelancer-a:hover{
+
+	color: #000 !important;
+  }
+
+  
+/* -------------------------------mobile view-------------------------------- */
+
+@media (max-width: 600px) { 
+
+
+
+
+	.join-now-div{
+
+		display: flex;
+		justify-content: center;
+		padding: 30% 3%;
+		flex-direction: column;
+	  }
+	
+	  .join-now-title{
+	
+		color: var(--white-color);
+		font-size: calc(9px + 7.5vw);
+		text-align: center;
+	  }
+	
+	  .join-now-para{
+	
+		color: #fff;
+		text-align: center;
+	
+	
+	  }
+
+
+
+
+
+	.btn-div{
+
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		gap: 2%;
+	
+	  }
+
+	  .hire-freelancer{
+
+		width: 100%;
+		padding: 5% 0;
+	  }
+
+
+	  .join-freelancer{
+
+
+		padding: 5% 0;
+		
+		width: 100%;
+		margin-top: 3%;
+		
+	
+	  }
+
+	  .join-freelancer-a{
+
+		color: #000;
+	  }
+
+}
