@@ -839,6 +839,66 @@ body{
   
 
 
+  /* how we work */
+
+
+  .how-we-work{
+
+	padding: 2% 20%;
+	color: #fff;
+	background-color:#000;
+
+  }
+
+  .how-head{
+
+	text-align: center;
+	font-size: calc(5px + 4vw);
+	font-family: 'SF Pro Display', sans-serif !important;
+	text-align: center;
+	margin-top: 10%;
+	font-weight: 600;
+	
+
+  }
+
+  .how-video{
+
+	width: 100%;
+	height: 650px;
+	object-fit: cover;
+	border-radius: 20px;
+	margin-bottom: 5%;
+
+  }
+
+  .video-how{
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+	
+  }
+
+  .button_chat_how{
+
+	display: flex;
+	padding: 1.5% 5%;
+	background-color: #e61212;
+	width: fit-content;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	gap: 5px;
+  }
+
+
+
+
+
+
 
 /* ===============================  tab view================================================== =========== */
 
@@ -1231,6 +1291,57 @@ body{
 	
 }
 
+
+
+  /* how we work */
+
+
+  .how-we-work{
+
+	padding: 5% 5%;
+  }
+
+  .how-head{
+
+	text-align: center;
+	font-size: calc(10px + 5vw);
+	font-family: 'SF Pro Display', sans-serif !important;
+	text-align: center;
+	margin-top: 10%;
+	font-weight: 600;
+	
+
+  }
+
+  .how-video{
+
+	width: 100%;
+	height: 650px;
+	object-fit: cover;
+	border-radius: 20px;
+
+  }
+
+  .video-how{
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+  }
+
+
+
+  .how-chat-para{
+
+	text-align: center;
+  }
+
+  .button_chat_how{
+
+	width: 100%;
+	text-align: center;
+  }
 
 
 
